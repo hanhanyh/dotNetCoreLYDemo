@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "山楂留言板";
+}
+
+<table class="table">
+    <thead>
+        <th>
+           id
+        </th>
+    <th>详情</th>
+       
+    </thead>
+    @{ 
+
+        List<coreLY.Models.lytable> lylist = ViewData["data"] as List<coreLY.Models.lytable>;
+    }
+    @foreach (var item in lylist)
+    {
+    <tr>
+        <td>
+            @item.id
+        </td>
+        <td>
+            @item.detail
+        </td>
+    </tr>
+        
+    }
+</table>

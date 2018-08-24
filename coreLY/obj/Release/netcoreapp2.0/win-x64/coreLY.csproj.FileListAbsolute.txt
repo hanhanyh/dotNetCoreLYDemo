@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\coreLY\coreLY\bin\Release\netcoreapp2.0\win-x64\coreLY.deps.json
+C:\Users\Administrator\Desktop\coreLY\coreLY\bin\Release\netcoreapp2.0\win-x64\coreLY.runtimeconfig.json
+C:\Users\Administrator\Desktop\coreLY\coreLY\bin\Release\netcoreapp2.0\win-x64\coreLY.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\coreLY\coreLY\bin\Release\netcoreapp2.0\win-x64\coreLY.dll
+C:\Users\Administrator\Desktop\coreLY\coreLY\bin\Release\netcoreapp2.0\win-x64\coreLY.pdb
+C:\Users\Administrator\Desktop\coreLY\coreLY\obj\Release\netcoreapp2.0\win-x64\coreLY.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\coreLY\coreLY\obj\Release\netcoreapp2.0\win-x64\coreLY.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\coreLY\coreLY\obj\Release\netcoreapp2.0\win-x64\coreLY.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\coreLY\coreLY\obj\Release\netcoreapp2.0\win-x64\coreLY.dll
+C:\Users\Administrator\Desktop\coreLY\coreLY\obj\Release\netcoreapp2.0\win-x64\coreLY.pdb

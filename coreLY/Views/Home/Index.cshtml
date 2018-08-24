@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "山楂留言板";
+}
+
+<table class="table">
+    <thead>
+        <th>
+           id
+        </th>
+    <th>详情</th>
+    <th>
+        操作
+    </th>
+       
+    </thead>
+    @{ 
+
+        List<coreLY.Models.lytable> lylist = ViewData["data"] as List<coreLY.Models.lytable>;
+    }
+    @foreach (var item in lylist)
+    {
+    <tr>
+        <td>
+            @item.id
+        </td>
+        <td>
+            @item.detail
+        </td>
+        <td>
+            <a href='@Url.Content("~/Home/delete?id="+item.id)'>删除</a>
+        </td>
+
+</tr>
+
+    }
+</table>
+<br/>
+<form method="post" action='@Url.Content("~/Home/add")'> 
+    <input type="text" class="input-sm" name="detail" placeholder="请输入留言内容" />
+    <input type="submit" class="btn btn-danger" value="立即提交" />
+</form>
